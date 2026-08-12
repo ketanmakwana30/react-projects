@@ -15,10 +15,10 @@ const CardDets = ({ id, tag }) => {
           accusamus cupiditate voluptatibus mollitia alias tempora.
         </p>
         <div className="flex items-center justify-between gap-4">
-          <button className="bg-blue-600 text-white font-medium px-6 py-2 rounded-full shadow-lg">
+          <button className="bg-blue-600 cursor-pointer text-white font-medium px-6 py-2 rounded-full shadow-lg">
             {tag}
           </button>
-          <button className="bg-blue-300/10 text-white font-medium p-3 rounded-full shadow-lg backdrop-blur-sm">
+          <button className="bg-blue-300/10 cursor-pointer text-white font-medium p-3 rounded-full shadow-lg backdrop-blur-sm">
             <RiArrowRightLine size={20} />
           </button>
         </div>

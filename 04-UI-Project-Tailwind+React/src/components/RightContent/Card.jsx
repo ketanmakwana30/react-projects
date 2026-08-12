@@ -8,7 +8,7 @@ const Card = ({ id, img, tag }) => {
         alt={`Card ${id + 1}`}
         className="h-full w-full object-cover"
       />
-      <div className="absolute inset-0  from-black/80 via-black/20 to-transparent" />
+      <div className="absolute inset-0   from-black/80 via-black/20 to-transparent" />
       <CardDets id={id + 1} tag={tag} />
     </div>
   );
