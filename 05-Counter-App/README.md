@@ -1,3 +1,3 @@
 ## Counter App
 
-![counter](../Screenshots/counter.png)
+![counter](../Screenshots/05-counter.png)
